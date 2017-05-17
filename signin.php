@@ -4,11 +4,16 @@ require "db/konek.php";
 $email=$_POST['Email'];
 $password=$_POST['Password'];
 // echo "$email<br>$password";
-$sql = $conn->query("Select * FROM member WHERE Email ='$email' AND Password='$password'");
-if($sql->num_rows>0)
+$sql = $conn->prepare("Select * FROM member WHERE Email=? AND Password=?");
+$sql->bind_param('ss', $email, $password);
+
+$sql->execute();
+
+$result = $sql->get_result();
+if($result->num_rows>0)
 	{
-		while ($row = $sql->fetch_assoc()) {
-				// echo $row['Username'];
+		while ($row = $result->fetch_assoc()) {
+				//echo $row['Username'];
             	echo "Sign up Berhasil<br>";
             }
     }
