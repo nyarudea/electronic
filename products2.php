@@ -197,14 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="mobiles">
 		<div class="container">
 			<div class="w3ls_mobiles_grids">
-								<div class="col-md-4 w3ls_mobiles_grid_left">
-				</div>
-				<div class="col-md-8 w3ls_mobiles_grid_right">
 					<div class="clearfix"> </div>
-					<div class="w3ls_mobiles_grid_right_grid2">
-						<div class="clearfix"> </div>
-					</div>
-
 <?PHP
 require "db/konek.php";
 
@@ -217,7 +210,7 @@ if($result3->num_rows>0)
 		 	if($row['id']%3==1)
 		 	{
 		 		echo "
-		 		<div class='w3ls_mobiles_grid_right_grid3'>
+		 		<div class='w3ls_mobiles_grid_right_grid2'>
 		 		";
 		 	}
 		 	echo "<div class='col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles'>

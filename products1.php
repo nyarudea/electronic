@@ -187,14 +187,7 @@
 <div class="mobiles">
 		<div class="container">
 			<div class="w3ls_mobiles_grids">
-								<div class="col-md-4 w3ls_mobiles_grid_left">
-				</div>
-				<div class="col-md-8 w3ls_mobiles_grid_right">
-					<div class="clearfix"> </div>
-					<div class="w3ls_mobiles_grid_right_grid2">
-						<div class="clearfix"> </div>
-					</div>
-
+							<div class='clearfix'> </div>
 <?PHP
 require "db/konek.php";
 

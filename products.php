@@ -201,7 +201,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 								<div class="col-md-4 w3ls_mobiles_grid_left">
 				</div>
 						<div class="clearfix"> </div>
-
 <?PHP
 
 require "db/konek.php";
