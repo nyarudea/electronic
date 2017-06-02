@@ -1,3 +1,4 @@
+<?PHP session_start();?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -231,11 +232,9 @@ if($result3->num_rows>0)
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
 							";
+							$_SESSION["nama_barang"] = $row['nama_barang'];
+							$_SESSION['harga']=$row['harga'];
 							echo"<form action='temp.php' method='post'>
-							";
-							echo"<input type='hidden' name='nama_barang'value='"; echo $row['nama_barang']; echo"/>
-							";
-							echo"<input type='hidden' name='harga' value='"; echo $row['harga']; echo"/>
 							";
 							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
 							";
