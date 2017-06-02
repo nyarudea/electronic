@@ -124,7 +124,7 @@
 				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="index.html">Electronic Store<span>Your stores. Your place.</span></a></h1>
+				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
@@ -155,11 +155,11 @@
 				</div> 
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>	
-						<li><a href="products.html">Products </a></li>
-						<li><a href="products1.html">Products1 </a></li>
-						<li><a href="products2.html">Products2 </a></li>
-						<li><a href="about.html">About Us</a></li> 
+						<li><a href="index.php">Home</a></li>	
+						<li><a href="products.php">Products </a></li>
+						<li><a href="products1.php">Products1 </a></li>
+						<li><a href="products2.php">Products2 </a></li>
+						<li><a href="about.php">About Us</a></li> 
 					</ul>
 				</div>
 			</nav>
@@ -176,167 +176,81 @@
 	<div class="breadcrumb_dress">
 		<div class="container">
 			<ul>
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
 				<li>Products1</li>
 			</ul>
 		</div>
 	</div>
 	<!-- //breadcrumbs --> 
 	<!-- mobiles -->
-	<div class="mobiles">
+<div class="mobiles">
 		<div class="container">
 			<div class="w3ls_mobiles_grids">
-				<div class="col-md-4 w3ls_mobiles_grid_left">
+								<div class="col-md-4 w3ls_mobiles_grid_left">
 				</div>
 				<div class="col-md-8 w3ls_mobiles_grid_right">
+					<div class="clearfix"> </div>
+					<div class="w3ls_mobiles_grid_right_grid2">
 						<div class="clearfix"> </div>
 					</div>
-					<div class="w3ls_mobiles_grid_right_grid3">
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/24.jpg" alt=" " class="img-responsive" />
-								<h5>Asus Laptop</h5> 
-								<div class="simpleCart_shelfItem">
-									<p><span>$980</span> <i class="item_price">$880</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Asus Laptop" /> 
-										<input type="hidden" name="amount" value="880.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/p8.jpg" alt=" " class="img-responsive" />
-								<h5>Digital Watch</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$30</span> <i class="item_price">$25</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Digital Watch" /> 
-										<input type="hidden" name="amount" value="25.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/22.jpg" alt=" " class="img-responsive" /> 
-								<h5>i3 Laptop</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$950</span> <i class="item_price">$810</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="i3 Laptop" /> 
-										<input type="hidden" name="amount" value="810.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="w3ls_mobiles_grid_right_grid3">
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/p8.jpg" alt=" " class="img-responsive" /> 
-								<h5>Digital Watch2</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$32</span> <i class="item_price">$29</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Digital Watch2" /> 
-										<input type="hidden" name="amount" value="29.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/p6.jpg" alt=" " class="img-responsive" />
-								<h5>Asus Tablet</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$450</span> <i class="item_price">$425</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Asus Tablet" /> 
-										<input type="hidden" name="amount" value="425.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-								<div class="mobiles_grid_pos">
-									<h6>New</h6>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/p7.jpg" alt=" " class="img-responsive" />
-									<h5>Security Camera</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$30</span> <i class="item_price">$22</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Security Camera" /> 
-										<input type="hidden" name="amount" value="22.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div> 
-						<div class="clearfix"> </div>
-					</div>
-					<div class="w3ls_mobiles_grid_right_grid3">
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/p11.jpg" alt=" " class="img-responsive" />
-									<h5>Pen Camera</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$60</span> <i class="item_price">$54</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Pen Camera" /> 
-										<input type="hidden" name="amount" value="54.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-								<div class="mobiles_grid_pos">
-									<h6>New</h6>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/31.jpg" alt=" " class="img-responsive" />
-									<h5>Golden Tablet</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$650</span> <i class="item_price">$550</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Golden Tablet" /> 
-										<input type="hidden" name="amount" value="550.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles">
-							<div class="agile_ecommerce_tab_left mobiles_grid">
-									<img src="images/26.jpg" alt=" " class="img-responsive" />
-									<h5>Multicolor Laptop</h5>
-								<div class="simpleCart_shelfItem">
-									<p><span>$650</span> <i class="item_price">$610</i></p>
-									<form action="#" method="post">
-										<input type="hidden" name="w3ls_item" value="Multicolor Laptop" /> 
-										<input type="hidden" name="amount" value="610.00"/>   
-										<button type="submit" class="w3ls-cart">Add to cart</button>
-									</form>
-								</div> 
-							</div>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
+											
+<?PHP
+require "db/konek.php";
+
+$result3=$conn->query("SELECT * FROM barang WHERE id<=24 && id>12");
+if($result3->num_rows>0)
+	{
+		while ($row = $result3->fetch_assoc())
+		 {
+		 	// echo "a<br>";
+		 	if($row['id']%3==1)
+		 	{
+		 		echo "
+		 		<div class='w3ls_mobiles_grid_right_grid3'>
+		 		";
+		 	}
+		 	echo "<div class'col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles'>
+		 	";
+				echo"<div class='agile_ecommerce_tab_left mobiles_grid'>
+				";
+					echo"<img src='"; echo $row['url']; echo"' class='img-responsive' />
+					";
+					echo"<h5>"; echo $row['nama_barang'] ;echo "</h5> 
+					";
+						echo"<div class='simpleCart_shelfItem'>
+						";
+							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
+							";
+							echo"<form action='' method='post'>
+							";
+							echo"<input type='hidden' name='w3ls_item' value='Smart Phone' />
+							 ";
+							echo"<input type='hidden' name='amount' value='245.00'/>
+							";
+							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
+							";
+							echo"</form>
+							";
+						echo"</div>
+						";
+				echo"</div>
+				";
+			echo"</div>
+			";
+			if($row['id']%3==0)
+		 	{
+
+		 		echo "<div class='clearfix'> </div>
+					</div>";
+		 	}
+		}
+	}
+?>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div> 
+	</div>  
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -352,15 +266,15 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info"> 
-						<li><a href="products.html">Products</a></li>
-						<li><a href="products1.html">Products1</a></li>
-						<li><a href="products2.html">Products2</a></li>
+						<li><a href="products.php">Products</a></li>
+						<li><a href="products1.php">Products1</a></li>
+						<li><a href="products2.php">Products2</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info"> 
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

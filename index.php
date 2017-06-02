@@ -133,7 +133,7 @@
 				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="index.html">Electronic Store<span>Your stores. Your place.</span></a></h1>
+				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
@@ -164,11 +164,11 @@
 				</div> 
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>	
-						<li><a href="products.html">Products </a></li>
-						<li><a href="products1.html">Products1 </a></li>
-						<li><a href="products2.html">Products2 </a></li>
-						<li><a href="about.html">About Us</a></li> 
+						<li><a href="index.php">Home</a></li>	
+						<li><a href="products.php">Products </a></li>
+						<li><a href="products1.php">Products1 </a></li>
+						<li><a href="products2.php">Products2 </a></li>
+						<li><a href="about.php">About Us</a></li> 
 					</ul>
 				</div>
 			</nav>
@@ -600,7 +600,7 @@
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
 				<h3>Grand Opening Event With flat<span>20% <i>Discount</i></span></h3>
-				<a href="products.html">Shop Now</a>
+				<a href="products.php">Shop Now</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
 				<h4>hot deal</h4>
@@ -628,15 +628,15 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info"> 
-						<li><a href="products.html">Products</a></li>
-						<li><a href="products1.html">Products1</a></li>
-						<li><a href="products2.html">Products2</a></li>
+						<li><a href="products.php">Products</a></li>
+						<li><a href="products1.php">Products1</a></li>
+						<li><a href="products2.php">Products2</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info"> 
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>

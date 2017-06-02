@@ -21,5 +21,5 @@ if($result->num_rows>0)
     {
     	echo "pass salah";
     }
-	echo"<a href=index.html>bek</a>";
+	echo"<a href=index.php>bek</a>";
 ?>
