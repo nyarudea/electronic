@@ -93,7 +93,7 @@
 						<li><a href="index.html">Home</a></li>
 						<!-- Mega Menu -->
 						<li>
-							<a href="products.html">Products </a>
+							<a href="products.php">Products </a>
 						</li>
 						<li><a href="about.html">About Us</a></li>
 					</ul>
