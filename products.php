@@ -232,11 +232,13 @@ if($result3->num_rows>0)
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
 							";
-							echo"<form action='' method='post'>
+							$r=$row['nama_barang'];
+							$o=$row['harga'];
+							echo"<form action='temp.php' method='post'>
 							";
-							echo"<input type='hidden' name='w3ls_item' value='Smart Phone' />
-							 ";
-							echo"<input type='hidden' name='amount' value='245.00'/>
+							echo"<input type='hidden' name='nama_barang'value='$r'/>
+							";
+							echo"<input type='hidden' name='harga' value='$o' />
 							";
 							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
 							";
