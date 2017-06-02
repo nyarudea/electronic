@@ -1,5 +1,6 @@
 <?php
 require "db/konek.php";
+session_start();
 
 $email=$_POST['Email'];
 $password=$_POST['Password'];
@@ -11,15 +12,15 @@ $sql->execute();
 
 $result = $sql->get_result();
 if($result->num_rows>0)
+{
+	while($row = $result->fetch_assoc())
 	{
-		while ($row = $result->fetch_assoc()) {
-				//echo $row['Username'];
-            	echo "Sign in Berhasil<br>";
-            }
-    }
-    else
-    {
-    	echo "pass salah";
-    }
-	echo"<a href=index.html>bek</a>";
+		if($email==$row['Email'])
+		{
+			$_SESSION['email'] = $email;
+			header("Location: home.php");
+			exit();
+		}
+  }
+}
 ?>
