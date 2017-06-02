@@ -17,6 +17,6 @@ else
 {
 	echo"password tdk sesuai<br>";
 }
-	echo"<a href=index.html>bek</a>";
+	echo"<a href=index.php>bek</a>";
 
 ?>

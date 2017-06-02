@@ -133,7 +133,7 @@
 				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="index.html">Electronic Store<span>Your stores. Your place.</span></a></h1>
+				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
@@ -145,13 +145,6 @@
 					</form>
 				</div>
 			</div>
-			<div class="cart cart box_1"> 
-				<form action="#" method="post" class="last"> 
-					<input type="hidden" name="cmd" value="_cart" />
-					<input type="hidden" name="display" value="1" />
-					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-				</form>   
-			</div>  
 		</div>
 	</div>
 	<!-- //header -->
@@ -171,11 +164,11 @@
 				</div> 
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>	
-						<li><a href="products.html">Products </a></li>
-						<li><a href="products1.html">Products1 </a></li>
-						<li><a href="products2.html">Products2 </a></li>
-						<li><a href="about.html">About Us</a></li> 
+						<li><a href="index.php">Home</a></li>	
+						<li><a href="products.php">Products </a></li>
+						<li><a href="products1.php">Products1 </a></li>
+						<li><a href="products2.php">Products2 </a></li>
+						<li><a href="about.php">About Us</a></li> 
 					</ul>
 				</div>
 			</nav>
@@ -226,8 +219,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$380</span> <i class="item_price">$350</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
 									<input type="hidden" name="amount" value="350.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -290,8 +281,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$180</span> <i class="item_price">$150</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Headphones"> 
 									<input type="hidden" name="amount" value="150.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -349,8 +338,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$880</span> <i class="item_price">$850</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Laptop"> 
 									<input type="hidden" name="amount" value="850.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -408,8 +395,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$950</span> <i class="item_price">$820</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
 									<input type="hidden" name="amount" value="820.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -468,8 +453,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$460</span> <i class="item_price">$450</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Mobile Phone1"> 
 									<input type="hidden" name="amount" value="450.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -528,8 +511,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$960</span> <i class="item_price">$920</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Vacuum Cleaner"> 
 									<input type="hidden" name="amount" value="920.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -592,8 +573,6 @@
 							<div class="modal_body_right_cart simpleCart_shelfItem">
 								<p><span>$280</span> <i class="item_price">$250</i></p>
 								<form action="#" method="post">
-									<input type="hidden" name="cmd" value="_cart">
-									<input type="hidden" name="add" value="1"> 
 									<input type="hidden" name="w3ls_item" value="Induction Stove"> 
 									<input type="hidden" name="amount" value="250.00">   
 									<button type="submit" class="w3ls-cart">Add to cart</button>
@@ -621,7 +600,7 @@
 		<div class="agileinfo_banner_bottom1_grids">
 			<div class="col-md-7 agileinfo_banner_bottom1_grid_left">
 				<h3>Grand Opening Event With flat<span>20% <i>Discount</i></span></h3>
-				<a href="products.html">Shop Now</a>
+				<a href="products.php">Shop Now</a>
 			</div>
 			<div class="col-md-5 agileinfo_banner_bottom1_grid_right">
 				<h4>hot deal</h4>
@@ -649,15 +628,15 @@
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info"> 
-						<li><a href="products.html">Products</a></li>
-						<li><a href="products1.html">Products1</a></li>
-						<li><a href="products2.html">Products2</a></li>
+						<li><a href="products.php">Products</a></li>
+						<li><a href="products1.php">Products1</a></li>
+						<li><a href="products2.php">Products2</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info"> 
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -674,23 +653,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- //footer --> 
-	<!-- cart-js -->
-	<script src="js/minicart.js"></script>
-	<script>
-        w3ls.render();
-
-        w3ls.cart.on('w3sb_checkout', function (evt) {
-        	var items, len, i;
-
-        	if (this.subtotal() > 0) {
-        		items = this.items();
-
-        		for (i = 0, len = items.length; i < len; i++) { 
-        		}
-        	}
-        });
-    </script>  
-	<!-- //cart-js -->   
+	<!-- //footer -->   
 </body>
 </html>

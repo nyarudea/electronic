@@ -1,13 +1,5 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<title>Electronic Store a Ecommerce Online Shopping Category Bootstrap Responsive Website Template | About :: w3layouts</title>
+<title>Electronic Store a Ecommerce Online Shopping Category Bootstrap Responsive Website Template | Products1 :: w3layouts</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -19,10 +11,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
-<!-- //Custom Theme files -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
+<link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all"/>  <!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet">
+<!-- //Custom Theme files --> 
 <!-- js -->
 <script src="js/jquery.min.js"></script> 
 <!-- //js -->  
@@ -133,7 +124,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
 			</div>
 			<div class="w3l_logo">
-				<h1><a href="index.html">Electronic Store<span>Your stores. Your place.</span></a></h1>
+				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
 			</div>
 			<div class="search">
 				<input class="search_box" type="checkbox" id="search_box">
@@ -145,18 +136,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</form>
 				</div>
 			</div>
-			<div class="cart cart box_1"> 
-				<form action="#" method="post" class="last"> 
-					<input type="hidden" name="cmd" value="_cart" />
-					<input type="hidden" name="display" value="1" />
-					<button class="w3view-cart" type="submit" name="submit" value=""><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button>
-				</form>   
-			</div>  
 		</div>
 	</div>
 	<!-- //header -->
 	<!-- navigation -->
-		<div class="navigation">
+			<div class="navigation">
 		<div class="container">
 			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
@@ -171,11 +155,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div> 
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.html">Home</a></li>	
-						<li><a href="products.html">Products </a></li>
-						<li><a href="products1.html">Products1 </a></li>
-						<li><a href="products2.html">Products2 </a></li>
-						<li><a href="about.html">About Us</a></li> 
+						<li><a href="index.php">Home</a></li>	
+						<li><a href="products.php">Products </a></li>
+						<li><a href="products1.php">Products1 </a></li>
+						<li><a href="products2.php">Products2 </a></li>
+						<li><a href="about.php">About Us</a></li> 
 					</ul>
 				</div>
 			</nav>
@@ -183,153 +167,90 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	</div>
 	<!-- //navigation -->
 	<!-- banner -->
-	<div class="banner banner10">
+	<div class="banner banner2">
 		<div class="container">
-			<h2>About Us</h2>
+			<h2>Top Selling <span>Gadgets</span> Flat <i>25% Discount</i></h2> 
 		</div>
-	</div>
-	<!-- //banner -->   
+	</div> 
 	<!-- breadcrumbs -->
 	<div class="breadcrumb_dress">
 		<div class="container">
 			<ul>
-				<li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
-				<li>About Us</li>
+				<li><a href="index.php"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a> <i>/</i></li>
+				<li>Products1</li>
 			</ul>
 		</div>
 	</div>
 	<!-- //breadcrumbs --> 
-	<!-- about -->
-	<div class="about">
-		<div class="container">	
-			<div class="w3ls_about_grids">
-				<div class="col-md-6 w3ls_about_grid_left">
-					<p>Almamaterku yang kucinta, ibu yang luhur ITS 
-tetap membara semangatmu, cita-citamu tak kendur 
-Sepuluh November Empat Lima, mendorong menjiwaimu 
-melangkah ke arah tujuan dengan tekadmu yang teguh 
-Membina bangsa atas dasar Pancasila 
-dan Undang-Undang Dasar Empat Lima, landasan juangmu</p>
-					<div class="col-xs-2 w3ls_about_grid_left1">
-						<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
-					</div>
-					<div class="col-xs-10 w3ls_about_grid_left2">
-						<p>Almamaterku yang kucinta, ibu yang luhur ITS 
-amatlah kokoh gemblenganmu membina putra-putrimu 
-Menuntut teknologi yang canggih, berbudi agung dan cerdas 
-menuju kesejahteraan bangsa dan umat manusia 
-Almamaterku, kan kuturut bimbinganmu 
-jadi pejuang yang takkan kenal letih, membangun negeri 
-Hidup ITS, Hidup ITS 
-Almamaterku Jaya!</p>
-					</div>
-					<div class="clearfix"> </div>
-					<div class="col-xs-2 w3ls_about_grid_left1">
-						<span class="glyphicon glyphicon-flash" aria-hidden="true"></span>
-					</div>
-					<div class="col-xs-10 w3ls_about_grid_left2">
-						<p>
-Dari sabang sampai merauke 
-Menjajah pulau-pulau 
-Sambung memnyambung menjadi satu 
-Itulah Indonesia 
-Indonesia tanah airku 
-Aku berjanji padamu 
-Menjunjung tanah airku 
-Tanah airku Indonesia</p>
-					</div>
-					<div class="clearfix"> </div>
+	<!-- mobiles -->
+<div class="mobiles">
+		<div class="container">
+			<div class="w3ls_mobiles_grids">
+								<div class="col-md-4 w3ls_mobiles_grid_left">
 				</div>
-				<div class="col-md-6 w3ls_about_grid_right">
-					<img src="images/52.jpg" alt=" " class="img-responsive" />
+				<div class="col-md-8 w3ls_mobiles_grid_right">
+					<div class="clearfix"> </div>
+					<div class="w3ls_mobiles_grid_right_grid2">
+						<div class="clearfix"> </div>
+					</div>
+											
+<?PHP
+require "db/konek.php";
+
+$result3=$conn->query("SELECT * FROM barang WHERE id<=24 && id>12");
+if($result3->num_rows>0)
+	{
+		while ($row = $result3->fetch_assoc())
+		 {
+		 	// echo "a<br>";
+		 	if($row['id']%3==1)
+		 	{
+		 		echo "
+		 		<div class='w3ls_mobiles_grid_right_grid3'>
+		 		";
+		 	}
+		 	echo "<div class'col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles'>
+		 	";
+				echo"<div class='agile_ecommerce_tab_left mobiles_grid'>
+				";
+					echo"<img src='"; echo $row['url']; echo"' class='img-responsive' />
+					";
+					echo"<h5>"; echo $row['nama_barang'] ;echo "</h5> 
+					";
+						echo"<div class='simpleCart_shelfItem'>
+						";
+							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
+							";
+							echo"<form action='temp.php' method='post'>
+							";
+							echo"<input type='hidden' name='nama_barang'value='"; echo $row['nama_barang']; echo"/>
+							";
+							echo"<input type='hidden' name='harga' value='"; echo $row['harga']; echo"/>
+							";
+							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
+							";
+							echo"</form>
+							";
+						echo"</div>
+						";
+				echo"</div>
+				";
+			echo"</div>
+			";
+			if($row['id']%3==0)
+		 	{
+
+		 		echo "<div class='clearfix'> </div>
+					</div>";
+		 	}
+		}
+	}
+?>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
-	</div>
-	<!-- //about --> 
-	<!-- team -->
-	<div class="team">
-		<div class="container">
-			<h3>Meet Our Team</h3>
-			<div class="wthree_team_grids">
-				<div class="col-md-3 wthree_team_grid">
-					<img src="images/t4.png" alt=" " class="img-responsive" />
-					<h4>Smith Allen <span>Manager</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="images/t5.png" alt=" " class="img-responsive" />
-					<h4>Laura James <span>Designer</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="images/t6.png" alt=" " class="img-responsive" />
-					<h4>Crisp Doe <span>Director</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3 wthree_team_grid">
-					<img src="images/t7.png" alt=" " class="img-responsive" />
-					<h4>Linda Rosy <span>Quality Checker</span></h4>
-					<div class="agileits_social_button">
-						<ul>
-							<li><a href="#" class="facebook"> </a></li>
-							<li><a href="#" class="twitter"> </a></li>
-							<li><a href="#" class="google"> </a></li>
-							<li><a href="#" class="pinterest"> </a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-				<p>
-Garuda pancasila 
-Akulah pendukungmu 
-Patriot proklamasi 
-Sedia berkorban untukmu 
-Pancasila dasar negara 
-Rakyat adil makmur sentosa 
-Pribadi bangsaku 
-Ayo maju maju 
-Ayo maju maju 
-Ayo maju maju</p>
-			</div>
-		</div>
-	</div>
-	<!-- //team -->
-	<!-- team-bottom -->
-	<div class="team-bottom">
-		<div class="container">
-			<h3>Are You Ready For Deals? Flat <span>30% Offer </span>on Mobiles</h3>
-			<p>
-Padamu negeri kami berjanji 
-Padamu negeri kami berbakti 
-Padamu negeri kami mengabdi 
-Bagimu negeri jiwa raga kami</p>
-			<a href="products.html">Shop Now</a>
-		</div>
-	</div>
-	<!-- //team-bottom -->
+	</div>  
 	<!-- footer -->
 	<div class="footer">
 		<div class="container">
@@ -345,15 +266,15 @@ Bagimu negeri jiwa raga kami</p>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
 					<ul class="info"> 
-						<li><a href="products.html">Products</a></li>
-						<li><a href="products1.html">Products1</a></li>
-						<li><a href="products2.html">Products2</a></li>
+						<li><a href="products.php">Products</a></li>
+						<li><a href="products1.php">Products1</a></li>
+						<li><a href="products2.php">Products2</a></li>
 					</ul>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
 					<ul class="info"> 
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
 				<div class="clearfix"> </div>
@@ -371,22 +292,5 @@ Bagimu negeri jiwa raga kami</p>
 		</div>
 	</div>
 	<!-- //footer -->  
-	<!-- cart-js -->
-	<script src="js/minicart.js"></script>
-	<script>
-        w3ls.render();
-
-        w3ls.cart.on('w3sb_checkout', function (evt) {
-        	var items, len, i;
-
-        	if (this.subtotal() > 0) {
-        		items = this.items();
-
-        		for (i = 0, len = items.length; i < len; i++) { 
-        		}
-        	}
-        });
-    </script>  
-	<!-- //cart-js --> 
 </body>
 </html>
