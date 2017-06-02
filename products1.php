@@ -1,3 +1,4 @@
+<?PHP session_start();?>
 <head>
 <title>Electronic Store a Ecommerce Online Shopping Category Bootstrap Responsive Website Template | Products1 :: w3layouts</title>
 <!-- for-mobile-apps -->
@@ -221,11 +222,9 @@ if($result3->num_rows>0)
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
 							";
+							$_SESSION["nama_barang"] = $row['nama_barang'];
+							$_SESSION['harga']=$row['harga'];
 							echo"<form action='temp.php' method='post'>
-							";
-							echo"<input type='hidden' name='nama_barang'value='"; echo $row['nama_barang']; echo"/>
-							";
-							echo"<input type='hidden' name='harga' value='"; echo $row['harga']; echo"/>
 							";
 							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
 							";

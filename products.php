@@ -1,3 +1,4 @@
+<?PHP session_start();?>
 <!--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -206,6 +207,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 											
 <?PHP
+
 require "db/konek.php";
 
 $result3=$conn->query("SELECT * FROM barang WHERE id<=12");
@@ -232,13 +234,9 @@ if($result3->num_rows>0)
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
 							";
-							$r=$row['nama_barang'];
-							$o=$row['harga'];
+							$_SESSION["nama_barang"] = $row['nama_barang'];
+							$_SESSION['harga']=$row['harga'];
 							echo"<form action='temp.php' method='post'>
-							";
-							echo"<input type='hidden' name='nama_barang'value='$r'/>
-							";
-							echo"<input type='hidden' name='harga' value='$o' />
 							";
 							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
 							";
