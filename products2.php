@@ -220,7 +220,7 @@ if($result3->num_rows>0)
 		 		<div class='w3ls_mobiles_grid_right_grid3'>
 		 		";
 		 	}
-		 	echo "<div class'col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles'>
+		 	echo "<div class='col-md-4 agileinfo_new_products_grid agileinfo_new_products_grid_mobiles'>
 		 	";
 				echo"<div class='agile_ecommerce_tab_left mobiles_grid'>
 				";
