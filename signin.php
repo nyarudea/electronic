@@ -80,10 +80,10 @@ session_start();
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
 						<li><a href="index.php">Home</a></li>
-						<li><a href="products.php">Products </a></li>
-						<li><a href="products1.php">Products1 </a></li>
-						<li><a href="products2.php">Products2 </a></li>
-						<li><a href="about.php">About Us</a></li>
+						<li><a href="products_.php">Products </a></li>
+						<li><a href="products1_.php">Products1 </a></li>
+						<li><a href="products2_.php">Products2 </a></li>
+						<li><a href="about_.php">About Us</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -122,6 +122,7 @@ if($result->num_rows>0)
 }
 else
 		{
+			session_destroy() ;
 			echo "<div class='container' align=center><h1>Login gagal</h1><br><h2><a href=index.php>  
 			<img src='images/back.png' style=;width:200px;height:100px;border:0'></a></h2></div>";
 		}
