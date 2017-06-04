@@ -1,3 +1,4 @@
+<?PHP session_start();?>
 <head>
 <title>Electronic Store a Ecommerce Online Shopping Category </title>
 <!-- for-mobile-apps -->
@@ -50,7 +51,7 @@
 	<div class="header" id="home1">
 		<div class="container">
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88">Logout</a>
+				<a href="logout.php">Logout</a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
