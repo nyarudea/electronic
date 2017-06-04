@@ -45,6 +45,62 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </script>
 <!-- //end-smooth-scrolling --> 
 </head> 
+
+<body>
+
+	<!-- header -->
+	<div class="header" id="home1">
+		<div class="container">
+			<div class="w3l_logo">
+				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
+			</div>
+			<div class="search">
+				<input class="search_box" type="checkbox" id="search_box">
+				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
+				<div class="search_form">
+					<form action="search.php" method="post">
+						<input type="text" name="Search" placeholder="Search...">
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- navigation -->
+		<div class="navigation">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header nav_2">
+					<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+					<ul class="nav navbar-nav">
+						<li><a href="index.php">Home</a></li>
+						<li><a href="products_.php">Products </a></li>
+						<li><a href="products1_.php">Products1 </a></li>
+						<li><a href="products2_.php">Products2 </a></li>
+						<li><a href="about_.php">About Us</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+	<!-- //navigation -->
+	<!-- banner -->
+	<div class="banner banner1">
+		<div class="container">
+			<h2>Great Offers on <span>Mobiles</span> Flat <i>35% Discount</i></h2>
+		</div>
+	</div>
 <?php 
 require 'db/konek.php';
 $name=$_POST['Name'];
@@ -57,13 +113,13 @@ if($password==$cpassword)
 $sql = "INSERT INTO member (Username, Email, Password) VALUES ('$name','$email', '$password')";
                      if ($conn->query($sql) === TRUE) 
                       {
-                       echo "Sign up Berhasil<br>";
+                       echo "<div class='container' align=center><h1>Sign up Berhasil<br>";
                        } 
 }
 else
 {
-	echo"password tdk sesuai<br>";
+	echo"<div class='container' align=center><h1>password tdk sesuai<br>";
 }
-	echo"<a href=index.php>bek</a>";
+	echo"<a href=index.php>back</a></h1></div>";
 
 ?>
