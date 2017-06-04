@@ -114,6 +114,9 @@ if($result->num_rows>0)
 		if($email==$row['Email'] && $password==$row['Password'])
 		{
 			$_SESSION['email'] = $email;
+			 echo"<form action='home.php' method='post'>
+						<input type='hidden' name='email' value='$email'>
+					</form>";
 			header("Location: home.php");
 			exit();
 		}

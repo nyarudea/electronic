@@ -160,7 +160,7 @@
 				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.php">Home</a></li>
+						<li><a href="home.php">Home</a></li>
 						<li><a href="products.php">Products </a></li>
 						<li><a href="products1.php">Products1 </a></li>
 						<li><a href="products2.php">Products2 </a></li>

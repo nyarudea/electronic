@@ -221,11 +221,6 @@ if($result3->num_rows>0)
 					echo"<h5>"; echo $row['nama_barang'] ;echo "</h5> ";
 						echo"<div class='simpleCart_shelfItem'>";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>";
-							$_SESSION["nama_barang"] = $row['nama_barang'];
-							$_SESSION['harga']=$row['harga'];
-							echo"<form action='temp.php' method='post'>";
-							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>";
-							echo"</form>";
 						echo"</div>";
 				echo"</div>";
 			echo"</div>";

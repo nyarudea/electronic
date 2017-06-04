@@ -141,7 +141,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<input class="search_box" type="checkbox" id="search_box">
 				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
 				<div class="search_form">
-					<form action="search.php" method="post">
+					<form action="search.phplog" method="post">
 						<input type="text" name="Search" placeholder="Search...">
 						<input type="submit" value="Send">
 					</form>
@@ -224,14 +224,6 @@ if($result3->num_rows>0)
 						echo"<div class='simpleCart_shelfItem'>
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
-							";
-							$_SESSION["nama_barang"] = $row['nama_barang'];
-							$_SESSION['harga']=$row['harga'];
-							echo"<form action='temp.php' method='post'>
-							";
-							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
-							";
-							echo"</form>
 							";
 						echo"</div>
 						";

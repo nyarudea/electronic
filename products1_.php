@@ -37,6 +37,7 @@
 <!-- //end-smooth-scrolling -->
 </head>
 <body>
+	
 	<!-- header modal -->
 	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
@@ -214,14 +215,6 @@ if($result3->num_rows>0)
 						echo"<div class='simpleCart_shelfItem'>
 						";
 							echo"<p> <i class='item_price'>",$row['harga'],"</i></p>
-							";
-							$_SESSION["nama_barang"] = $row['nama_barang'];
-							$_SESSION['harga']=$row['harga'];
-							echo"<form action='temp.php' method='post'>
-							";
-							echo"<button type='submit' class='w3ls-cart'>Add to cart</button>
-							";
-							echo"</form>
 							";
 						echo"</div>
 						";

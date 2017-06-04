@@ -47,6 +47,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- //end-smooth-scrolling -->
 </head>
 <body>
+			<?PHP
+	$email=$_SESSION['email'];
+	 ?>
 	<!-- header modal -->
 	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
