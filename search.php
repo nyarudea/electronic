@@ -11,39 +11,39 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 	SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 	function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/fasthover.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom Theme files -->
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
 <!-- js -->
-<script src="js/jquery.min.js"></script> 
-<!-- //js -->  
-<!-- web fonts --> 
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- web fonts -->
 <link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- //web fonts --> 
+<!-- //web fonts -->
 <!-- for bootstrap working -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 <!-- //for bootstrap working -->
 <!-- start-smooth-scrolling -->
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script>
-<!-- //end-smooth-scrolling --> 
+<!-- //end-smooth-scrolling -->
 <style type="text/css">
 table {
     font-family: arial, sans-serif;
@@ -61,7 +61,7 @@ tr:nth-child(even) {
     background-color: #dddddd;
 }
 </style>
-</head> 
+</head>
 
 <body>
 
@@ -75,7 +75,7 @@ tr:nth-child(even) {
 				<input class="search_box" type="checkbox" id="search_box">
 				<label class="icon-search" for="search_box"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></label>
 				<div class="search_form">
-					<form action="search.php" method="post">
+					<form action="search.php" method="get">
 						<input type="text" name="Search" placeholder="Search...">
 						<input type="submit" value="Send">
 					</form>
@@ -112,15 +112,12 @@ tr:nth-child(even) {
 		</div>
 	</div>
 	<!-- //navigation -->
-
-
-
-
-
 <?PHP
 require "db/konek.php";
-		$search=$_POST['Search'];
-		$result = $conn->query("SELECT * FROM barang WHERE nama_barang LIKE '%$search%' OR harga LIKE '%$search%'");
+		// $search=preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['Search']);
+		$search=urlencode($_GET['Search']);
+		$escaped = htmlspecialchars($search, ENT_QUOTES | ENT_HTML5, 'UTF-8');
+		$result = $conn->query("SELECT * FROM barang WHERE nama_barang LIKE '%$escaped%' OR harga LIKE '%$escaped%'");
 $x=1;
 
 if($result->num_rows>0)
@@ -144,7 +141,7 @@ if($result->num_rows>0)
 						</td>
 						<td>";
 							echo $row['nama_barang'];
-						echo"</td>	
+						echo"</td>
 						<td>";
 							echo $row['harga'];
 						echo"</td>
@@ -153,7 +150,7 @@ if($result->num_rows>0)
 	}
 
 }
-else 
+else
 {
 	echo "<br><h1 align='center'>HASIL PENCARIAN TIDAK DITEMUKAN</h1>";
 }
