@@ -1,9 +1,4 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?PHP session_start();?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,40 +6,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+<meta name="keywords" content="Electronic Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 	SmartPhone Compatible web template, free web designs for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 	function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //for-mobile-apps -->
 <!-- Custom Theme files -->
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" /> 
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <!-- //Custom Theme files -->
 <!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
+<link href="css/font-awesome.css" rel="stylesheet">
 <!-- //font-awesome icons -->
 <!-- js -->
-<script src="js/jquery.min.js"></script> 
-<!-- //js -->  
-<!-- web fonts --> 
+<script src="js/jquery.min.js"></script>
+<!-- //js -->
+<!-- web fonts -->
 <link href='//fonts.googleapis.com/css?family=Glegoo:400,700' rel='stylesheet' type='text/css'>
 <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-<!-- //web fonts --> 
+<!-- //web fonts -->
 <!-- for bootstrap working -->
 <script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
 <!-- //for bootstrap working -->
 <!-- start-smooth-scrolling -->
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
+		$(".scroll").click(function(event){
 			event.preventDefault();
 			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 		});
 	});
 </script>
-<!-- //end-smooth-scrolling --> 
-</head> 
-<body> 
+<!-- //end-smooth-scrolling -->
+</head>
+<body>
 	<!-- header modal -->
 	<div class="modal fade" id="myModal88" tabindex="-1" role="dialog" aria-labelledby="myModal88" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
@@ -57,32 +52,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="modal-body modal-body-sub">
 					<div class="row">
 						<div class="col-md-8 modal_body_left modal_body_left1" style="border-right: 1px dotted #C2C2C2;padding-right:3em;">
-							<div class="sap_tabs">	
+							<div class="sap_tabs">
 								<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
 									<ul>
 										<li class="resp-tab-item" aria-controls="tab_item-0"><span>Sign in</span></li>
 										<li class="resp-tab-item" aria-controls="tab_item-1"><span>Sign up</span></li>
-									</ul>		
+									</ul>
 									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 										<div class="facts">
 											<div class="register">
-												<form action="signin.php" method="post">			
+												<form action="signin.php" method="post">
 													<input name="Email" placeholder="Email Address" type="text" required="">
-													<input name="Password" placeholder="Password" type="password" required="">				
+													<input name="Password" placeholder="Password" type="password" required="">
 													<div class="sign-up">
 														<input type="submit" value="Sign in"/>
 													</div>
 												</form>
 											</div>
-										</div> 
-									</div>	 
+										</div>
+									</div>
 									<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
 										<div class="facts">
 											<div class="register">
-												<form action="signup.php" method="post">			
+												<form action="signup.php" method="post">
 													<input placeholder="Name" name="Name" type="text" required="">
-													<input placeholder="Email Address" name="Email" type="email" required="">	
-													<input placeholder="Password" name="Password" type="password" required="">	
+													<input placeholder="Email Address" name="Email" type="email" required="">
+													<input placeholder="Password" name="Password" type="password" required="">
 													<input placeholder="Confirm Password" name="Password" type="password" required="">
 													<div class="sign-up">
 														<input type="submit" value="Create Account"/>
@@ -90,14 +85,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 												</form>
 											</div>
 										</div>
-									</div> 			        					            	      
-								</div>	
+									</div>
+								</div>
 							</div>
 							<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
 							<script type="text/javascript">
 								$(document).ready(function () {
 									$('#horizontalTab').easyResponsiveTabs({
-										type: 'default', //Types: default, vertical, accordion           
+										type: 'default', //Types: default, vertical, accordion
 										width: 'auto', //auto or any width like 600px
 										fit: true   // 100% fit in a container
 									});
@@ -124,13 +119,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				</div>
 			</div>
 		</div>
-	</div> 
+	</div>
 	<!-- header modal -->
 	<!-- header -->
 	<div class="header" id="home1">
 		<div class="container">
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<a href="logout.php">Logout</a>
+
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
@@ -144,7 +140,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<input type="submit" value="Send">
 					</form>
 				</div>
-			</div> 
+			</div>
 		</div>
 	</div>
 	<!-- //header -->
@@ -161,14 +157,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-				</div> 
+				</div>
 				<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
 					<ul class="nav navbar-nav">
-						<li><a href="index.php">Home</a></li>	
+						<li><a href="index.php">Home</a></li>
 						<li><a href="products.php">Products </a></li>
 						<li><a href="products1.php">Products1 </a></li>
 						<li><a href="products2.php">Products2 </a></li>
-						<li><a href="about.php">About Us</a></li> 
+						<li><a href="about.php">About Us</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -181,7 +177,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<h2>About Us</h2>
 		</div>
 	</div>
-	<!-- //banner -->   
+	<!-- //banner -->
 	<!-- breadcrumbs -->
 	<div class="breadcrumb_dress">
 		<div class="container">
@@ -191,29 +187,29 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			</ul>
 		</div>
 	</div>
-	<!-- //breadcrumbs --> 
+	<!-- //breadcrumbs -->
 	<!-- about -->
 	<div class="about">
-		<div class="container">	
+		<div class="container">
 			<div class="w3ls_about_grids">
 				<div class="col-md-6 w3ls_about_grid_left">
-					<p>Almamaterku yang kucinta, ibu yang luhur ITS 
-tetap membara semangatmu, cita-citamu tak kendur 
-Sepuluh November Empat Lima, mendorong menjiwaimu 
-melangkah ke arah tujuan dengan tekadmu yang teguh 
-Membina bangsa atas dasar Pancasila 
+					<p>Almamaterku yang kucinta, ibu yang luhur ITS
+tetap membara semangatmu, cita-citamu tak kendur
+Sepuluh November Empat Lima, mendorong menjiwaimu
+melangkah ke arah tujuan dengan tekadmu yang teguh
+Membina bangsa atas dasar Pancasila
 dan Undang-Undang Dasar Empat Lima, landasan juangmu</p>
 					<div class="col-xs-2 w3ls_about_grid_left1">
 						<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
 					</div>
 					<div class="col-xs-10 w3ls_about_grid_left2">
-						<p>Almamaterku yang kucinta, ibu yang luhur ITS 
-amatlah kokoh gemblenganmu membina putra-putrimu 
-Menuntut teknologi yang canggih, berbudi agung dan cerdas 
-menuju kesejahteraan bangsa dan umat manusia 
-Almamaterku, kan kuturut bimbinganmu 
-jadi pejuang yang takkan kenal letih, membangun negeri 
-Hidup ITS, Hidup ITS 
+						<p>Almamaterku yang kucinta, ibu yang luhur ITS
+amatlah kokoh gemblenganmu membina putra-putrimu
+Menuntut teknologi yang canggih, berbudi agung dan cerdas
+menuju kesejahteraan bangsa dan umat manusia
+Almamaterku, kan kuturut bimbinganmu
+jadi pejuang yang takkan kenal letih, membangun negeri
+Hidup ITS, Hidup ITS
 Almamaterku Jaya!</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -222,13 +218,13 @@ Almamaterku Jaya!</p>
 					</div>
 					<div class="col-xs-10 w3ls_about_grid_left2">
 						<p>
-Dari sabang sampai merauke 
-Menjajah pulau-pulau 
-Sambung memnyambung menjadi satu 
-Itulah Indonesia 
-Indonesia tanah airku 
-Aku berjanji padamu 
-Menjunjung tanah airku 
+Dari sabang sampai merauke
+Menjajah pulau-pulau
+Sambung memnyambung menjadi satu
+Itulah Indonesia
+Indonesia tanah airku
+Aku berjanji padamu
+Menjunjung tanah airku
 Tanah airku Indonesia</p>
 					</div>
 					<div class="clearfix"> </div>
@@ -240,7 +236,7 @@ Tanah airku Indonesia</p>
 			</div>
 		</div>
 	</div>
-	<!-- //about --> 
+	<!-- //about -->
 	<!-- team -->
 	<div class="team">
 		<div class="container">
@@ -296,15 +292,15 @@ Tanah airku Indonesia</p>
 				</div>
 				<div class="clearfix"> </div>
 				<p>
-Garuda pancasila 
-Akulah pendukungmu 
-Patriot proklamasi 
-Sedia berkorban untukmu 
-Pancasila dasar negara 
-Rakyat adil makmur sentosa 
-Pribadi bangsaku 
-Ayo maju maju 
-Ayo maju maju 
+Garuda pancasila
+Akulah pendukungmu
+Patriot proklamasi
+Sedia berkorban untukmu
+Pancasila dasar negara
+Rakyat adil makmur sentosa
+Pribadi bangsaku
+Ayo maju maju
+Ayo maju maju
 Ayo maju maju</p>
 			</div>
 		</div>
@@ -315,9 +311,9 @@ Ayo maju maju</p>
 		<div class="container">
 			<h3>Are You Ready For Deals? Flat <span>30% Offer </span>on Mobiles</h3>
 			<p>
-Padamu negeri kami berjanji 
-Padamu negeri kami berbakti 
-Padamu negeri kami mengabdi 
+Padamu negeri kami berjanji
+Padamu negeri kami berbakti
+Padamu negeri kami mengabdi
 Bagimu negeri jiwa raga kami</p>
 			<a href="products.php">Shop Now</a>
 		</div>
@@ -337,7 +333,7 @@ Bagimu negeri jiwa raga kami</p>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Category</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><a href="products.php">Products</a></li>
 						<li><a href="products1.php">Products1</a></li>
 						<li><a href="products2.php">Products2</a></li>
@@ -345,7 +341,7 @@ Bagimu negeri jiwa raga kami</p>
 				</div>
 				<div class="col-md-3 w3_footer_grid">
 					<h3>Profile</h3>
-					<ul class="info"> 
+					<ul class="info">
 						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
@@ -363,6 +359,6 @@ Bagimu negeri jiwa raga kami</p>
 			</div>
 		</div>
 	</div>
-	<!-- //footer -->  
+	<!-- //footer -->
 </body>
 </html>

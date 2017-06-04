@@ -132,7 +132,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="header" id="home1">
 		<div class="container">
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88">Logout</a>
+				<a href="logout.php">Logout</a>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="index.php">Electronic Store<span>Your stores. Your place.</span></a></h1>
